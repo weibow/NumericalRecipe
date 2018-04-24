@@ -1,0 +1,1026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\other\nrutil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\other\nr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\other\complex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\recipes\addint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\airy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\amoeba.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\amotry.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\anneal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\anorm2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\arcmak.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\arcode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\arcsum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\avevar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\balanc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\banbks.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bandec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\banmul.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bcucof.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bcuint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\beschb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bessi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bessi0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bessi1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bessik.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bessj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bessj0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bessj1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bessjy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bessk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bessk0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bessk1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bessy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bessy0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bessy1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\beta.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\betacf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\betai.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bico.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bksub.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bnldev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\brent.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\bsstep.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\caldat.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\chder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\chebev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\chebft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\chebpc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\chint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\chixy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\choldc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\cholsl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\chsone.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\chstwo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\cisi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\cntab1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\cntab2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\complex.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\convlv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\copy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\correl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\cosft1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\cosft2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\covsrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\crank.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\cyclic.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\daub4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\dawson.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\dbrent.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ddpoly.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\decchk.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\df1dim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\dfour1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\dfpmin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\dfridr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\dftcor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\dftint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\dlinmin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\dpythag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\drealft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\dsprsax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\dsprstx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\dsvbksb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\dsvdcmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\eclass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\eclazz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ei.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\eigsrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\elle.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ellf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ellpi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\elmhes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\erfcc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\erff.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\erffc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\eulsum.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\evlmem.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\expdev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\expint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\f1dim.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\factln.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\factrl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\fasper.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\fdjac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\fgauss.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\fill0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\fit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\fitexy.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\fixrts.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\fleg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\flmoon.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\four1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\fourew.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\fourfs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\fourn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\fpoly.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\fred2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\fredin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\frenel.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\frprmn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ftest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\gamdev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\gammln.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\gammp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\gammq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\gasdev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\gaucof.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\gauher.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\gaujac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\gaulag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\gauleg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\gaussj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\gcf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\golden.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\gser.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\hpsel.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\hpsort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\hqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\hufapp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\hufdec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\hufenc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\hufmak.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\hunt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\hypdrv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\hypgeo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\hypser.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\icrc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\icrc1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\igray.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\iindexx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\indexx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\interp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\irbit1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\irbit2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\jacobi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\jacobn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\julday.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\kendl1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\kendl2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\kermom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ks2d1s.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ks2d2s.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ksone.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\kstwo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\laguer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\lfit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\linmin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\lnsrch.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\locate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\lop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\lubksb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ludcmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\machar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\matadd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\matsub.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\medfit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\memcof.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\metrop.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\mgfas.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\mglin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\midexp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\midinf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\midpnt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\midsql.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\midsqu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\mmid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\mnbrak.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\moment.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\mp2dfr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\mpdiv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\mpinv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\mpmul.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\mpops.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\mppi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\mprove.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\mpsqrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\mrqcof.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\mrqmin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\nrutil.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\odeint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\orthog.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\pade.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\pccheb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\pcshft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\pearsn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\period.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\piksr2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\piksrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\pinvs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\plgndr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\poidev.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\polcoe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\polcof.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\poldiv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\polin2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\polint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\powell.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\predic.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\probks.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\psdes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\pwt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\pwtset.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\pythag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\pzextr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\qgaus.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\qrdcmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\qromb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\qromo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\qroot.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\qrsolv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\qrupdt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\qsimp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\qtrap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\quadct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\quadmx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\quadvl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ran0.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ran1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ran2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ran3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ran4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rank.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ratint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ratlsq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ratval.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\realft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rebin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\red.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\relax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\relax2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\resid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\revcst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\reverse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rf.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rj.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rk4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rkck.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rkdumb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rkqs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rlft3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rofunc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rotate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rsolv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rstrct.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rtbis.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rtflsp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rtnewt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rtsafe.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rtsec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\rzextr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\savgol.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\scrsho.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\select.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\selip.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\shell.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\simp1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\simp2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\simp3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\simplx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\simpr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\sinft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\slvsm2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\slvsml.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\sncndn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\snrm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\sobseq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\sor.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\sort.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\sort2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\sort3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\spctrm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\spear.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\sphbes.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\splie2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\splin2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\spline.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\splint.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\spread.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\sprsax.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\sprsin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\sprspm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\sprstm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\sprstp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\sprstx.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\stifbs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\stiff.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\stoerm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\svbksb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\svdcmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\svdfit.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\svdvar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\toeplz.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\tptest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\tqli.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\trapzd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\tred2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\tridag.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\trncst.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\trnspt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\ttest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\tutest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\twofft.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\vander.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\voltra.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\wt1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\wtn.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\wwghts.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\zbrac.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\zbrak.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\zbrent.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\zrhqr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\zriddr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\recipes\zroots.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\examples\xludcmp.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

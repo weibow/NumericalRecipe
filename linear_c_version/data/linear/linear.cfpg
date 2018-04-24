@@ -1,0 +1,10 @@
+<Projects version="2.0">
+	<Project active="1">linear.cfp</Project>
+	<File active="0">..\..\examples\xvander.c</File>
+	<File active="0">..\..\other\nrutil.h</File>
+	<File active="1">..\..\other\nrutil.c</File>
+	<File active="0">..\..\other\nr.h</File>
+	<File active="0">..\..\other\bccbug.c</File>
+	<File active="0">..\..\other\complex.h</File>
+	<File active="0">..\..\other\complex.c</File>
+</Projects>

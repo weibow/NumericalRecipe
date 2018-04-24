@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{C7D59260-C479-42A4-A610-E9A6301A214D}</ProjectGuid>
+    <RootNamespace>linear_c_version</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\git_new_repository\C_211\linear_c_version\other;D:\git_new_repository\C_211\linear_c_version;$(IncludePath)</IncludePath>
+    <SourcePath>D:\git_new_repository\C_211\linear_c_version;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/D _CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\other\complex.h" />
+    <ClInclude Include="..\other\nr.h" />
+    <ClInclude Include="..\other\nrutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\examples\xludcmp.c" />
+    <ClCompile Include="..\recipes\addint.c" />
+    <ClCompile Include="..\recipes\airy.c" />
+    <ClCompile Include="..\recipes\amoeba.c" />
+    <ClCompile Include="..\recipes\amotry.c" />
+    <ClCompile Include="..\recipes\anneal.c" />
+    <ClCompile Include="..\recipes\anorm2.c" />
+    <ClCompile Include="..\recipes\arcmak.c" />
+    <ClCompile Include="..\recipes\arcode.c" />
+    <ClCompile Include="..\recipes\arcsum.c" />
+    <ClCompile Include="..\recipes\avevar.c" />
+    <ClCompile Include="..\recipes\balanc.c" />
+    <ClCompile Include="..\recipes\banbks.c" />
+    <ClCompile Include="..\recipes\bandec.c" />
+    <ClCompile Include="..\recipes\banmul.c" />
+    <ClCompile Include="..\recipes\bcucof.c" />
+    <ClCompile Include="..\recipes\bcuint.c" />
+    <ClCompile Include="..\recipes\beschb.c" />
+    <ClCompile Include="..\recipes\bessi.c" />
+    <ClCompile Include="..\recipes\bessi0.c" />
+    <ClCompile Include="..\recipes\bessi1.c" />
+    <ClCompile Include="..\recipes\bessik.c" />
+    <ClCompile Include="..\recipes\bessj.c" />
+    <ClCompile Include="..\recipes\bessj0.c" />
+    <ClCompile Include="..\recipes\bessj1.c" />
+    <ClCompile Include="..\recipes\bessjy.c" />
+    <ClCompile Include="..\recipes\bessk.c" />
+    <ClCompile Include="..\recipes\bessk0.c" />
+    <ClCompile Include="..\recipes\bessk1.c" />
+    <ClCompile Include="..\recipes\bessy.c" />
+    <ClCompile Include="..\recipes\bessy0.c" />
+    <ClCompile Include="..\recipes\bessy1.c" />
+    <ClCompile Include="..\recipes\beta.c" />
+    <ClCompile Include="..\recipes\betacf.c" />
+    <ClCompile Include="..\recipes\betai.c" />
+    <ClCompile Include="..\recipes\bico.c" />
+    <ClCompile Include="..\recipes\bksub.c" />
+    <ClCompile Include="..\recipes\bnldev.c" />
+    <ClCompile Include="..\recipes\brent.c" />
+    <ClCompile Include="..\recipes\bsstep.c" />
+    <ClCompile Include="..\recipes\caldat.c" />
+    <ClCompile Include="..\recipes\chder.c" />
+    <ClCompile Include="..\recipes\chebev.c" />
+    <ClCompile Include="..\recipes\chebft.c" />
+    <ClCompile Include="..\recipes\chebpc.c" />
+    <ClCompile Include="..\recipes\chint.c" />
+    <ClCompile Include="..\recipes\chixy.c" />
+    <ClCompile Include="..\recipes\choldc.c" />
+    <ClCompile Include="..\recipes\cholsl.c" />
+    <ClCompile Include="..\recipes\chsone.c" />
+    <ClCompile Include="..\recipes\chstwo.c" />
+    <ClCompile Include="..\recipes\cisi.c" />
+    <ClCompile Include="..\recipes\cntab1.c" />
+    <ClCompile Include="..\recipes\cntab2.c" />
+    <ClCompile Include="..\recipes\complex.c" />
+    <ClCompile Include="..\recipes\convlv.c" />
+    <ClCompile Include="..\recipes\copy.c" />
+    <ClCompile Include="..\recipes\correl.c" />
+    <ClCompile Include="..\recipes\cosft1.c" />
+    <ClCompile Include="..\recipes\cosft2.c" />
+    <ClCompile Include="..\recipes\covsrt.c" />
+    <ClCompile Include="..\recipes\crank.c" />
+    <ClCompile Include="..\recipes\cyclic.c" />
+    <ClCompile Include="..\recipes\daub4.c" />
+    <ClCompile Include="..\recipes\dawson.c" />
+    <ClCompile Include="..\recipes\dbrent.c" />
+    <ClCompile Include="..\recipes\ddpoly.c" />
+    <ClCompile Include="..\recipes\decchk.c" />
+    <ClCompile Include="..\recipes\df1dim.c" />
+    <ClCompile Include="..\recipes\dfour1.c" />
+    <ClCompile Include="..\recipes\dfpmin.c" />
+    <ClCompile Include="..\recipes\dfridr.c" />
+    <ClCompile Include="..\recipes\dftcor.c" />
+    <ClCompile Include="..\recipes\dftint.c" />
+    <ClCompile Include="..\recipes\dlinmin.c" />
+    <ClCompile Include="..\recipes\dpythag.c" />
+    <ClCompile Include="..\recipes\drealft.c" />
+    <ClCompile Include="..\recipes\dsprsax.c" />
+    <ClCompile Include="..\recipes\dsprstx.c" />
+    <ClCompile Include="..\recipes\dsvbksb.c" />
+    <ClCompile Include="..\recipes\dsvdcmp.c" />
+    <ClCompile Include="..\recipes\eclass.c" />
+    <ClCompile Include="..\recipes\eclazz.c" />
+    <ClCompile Include="..\recipes\ei.c" />
+    <ClCompile Include="..\recipes\eigsrt.c" />
+    <ClCompile Include="..\recipes\elle.c" />
+    <ClCompile Include="..\recipes\ellf.c" />
+    <ClCompile Include="..\recipes\ellpi.c" />
+    <ClCompile Include="..\recipes\elmhes.c" />
+    <ClCompile Include="..\recipes\erfcc.c" />
+    <ClCompile Include="..\recipes\erff.c" />
+    <ClCompile Include="..\recipes\erffc.c" />
+    <ClCompile Include="..\recipes\eulsum.c" />
+    <ClCompile Include="..\recipes\evlmem.c" />
+    <ClCompile Include="..\recipes\expdev.c" />
+    <ClCompile Include="..\recipes\expint.c" />
+    <ClCompile Include="..\recipes\f1dim.c" />
+    <ClCompile Include="..\recipes\factln.c" />
+    <ClCompile Include="..\recipes\factrl.c" />
+    <ClCompile Include="..\recipes\fasper.c" />
+    <ClCompile Include="..\recipes\fdjac.c" />
+    <ClCompile Include="..\recipes\fgauss.c" />
+    <ClCompile Include="..\recipes\fill0.c" />
+    <ClCompile Include="..\recipes\fit.c" />
+    <ClCompile Include="..\recipes\fitexy.c" />
+    <ClCompile Include="..\recipes\fixrts.c" />
+    <ClCompile Include="..\recipes\fleg.c" />
+    <ClCompile Include="..\recipes\flmoon.c" />
+    <ClCompile Include="..\recipes\four1.c" />
+    <ClCompile Include="..\recipes\fourew.c" />
+    <ClCompile Include="..\recipes\fourfs.c" />
+    <ClCompile Include="..\recipes\fourn.c" />
+    <ClCompile Include="..\recipes\fpoly.c" />
+    <ClCompile Include="..\recipes\fred2.c" />
+    <ClCompile Include="..\recipes\fredin.c" />
+    <ClCompile Include="..\recipes\frenel.c" />
+    <ClCompile Include="..\recipes\frprmn.c" />
+    <ClCompile Include="..\recipes\ftest.c" />
+    <ClCompile Include="..\recipes\gamdev.c" />
+    <ClCompile Include="..\recipes\gammln.c" />
+    <ClCompile Include="..\recipes\gammp.c" />
+    <ClCompile Include="..\recipes\gammq.c" />
+    <ClCompile Include="..\recipes\gasdev.c" />
+    <ClCompile Include="..\recipes\gaucof.c" />
+    <ClCompile Include="..\recipes\gauher.c" />
+    <ClCompile Include="..\recipes\gaujac.c" />
+    <ClCompile Include="..\recipes\gaulag.c" />
+    <ClCompile Include="..\recipes\gauleg.c" />
+    <ClCompile Include="..\recipes\gaussj.c" />
+    <ClCompile Include="..\recipes\gcf.c" />
+    <ClCompile Include="..\recipes\golden.c" />
+    <ClCompile Include="..\recipes\gser.c" />
+    <ClCompile Include="..\recipes\hpsel.c" />
+    <ClCompile Include="..\recipes\hpsort.c" />
+    <ClCompile Include="..\recipes\hqr.c" />
+    <ClCompile Include="..\recipes\hufapp.c" />
+    <ClCompile Include="..\recipes\hufdec.c" />
+    <ClCompile Include="..\recipes\hufenc.c" />
+    <ClCompile Include="..\recipes\hufmak.c" />
+    <ClCompile Include="..\recipes\hunt.c" />
+    <ClCompile Include="..\recipes\hypdrv.c" />
+    <ClCompile Include="..\recipes\hypgeo.c" />
+    <ClCompile Include="..\recipes\hypser.c" />
+    <ClCompile Include="..\recipes\icrc.c" />
+    <ClCompile Include="..\recipes\icrc1.c" />
+    <ClCompile Include="..\recipes\igray.c" />
+    <ClCompile Include="..\recipes\iindexx.c" />
+    <ClCompile Include="..\recipes\indexx.c" />
+    <ClCompile Include="..\recipes\interp.c" />
+    <ClCompile Include="..\recipes\irbit1.c" />
+    <ClCompile Include="..\recipes\irbit2.c" />
+    <ClCompile Include="..\recipes\jacobi.c" />
+    <ClCompile Include="..\recipes\jacobn.c" />
+    <ClCompile Include="..\recipes\julday.c" />
+    <ClCompile Include="..\recipes\kendl1.c" />
+    <ClCompile Include="..\recipes\kendl2.c" />
+    <ClCompile Include="..\recipes\kermom.c" />
+    <ClCompile Include="..\recipes\ks2d1s.c" />
+    <ClCompile Include="..\recipes\ks2d2s.c" />
+    <ClCompile Include="..\recipes\ksone.c" />
+    <ClCompile Include="..\recipes\kstwo.c" />
+    <ClCompile Include="..\recipes\laguer.c" />
+    <ClCompile Include="..\recipes\lfit.c" />
+    <ClCompile Include="..\recipes\linmin.c" />
+    <ClCompile Include="..\recipes\lnsrch.c" />
+    <ClCompile Include="..\recipes\locate.c" />
+    <ClCompile Include="..\recipes\lop.c" />
+    <ClCompile Include="..\recipes\lubksb.c" />
+    <ClCompile Include="..\recipes\ludcmp.c" />
+    <ClCompile Include="..\recipes\machar.c" />
+    <ClCompile Include="..\recipes\matadd.c" />
+    <ClCompile Include="..\recipes\matsub.c" />
+    <ClCompile Include="..\recipes\medfit.c" />
+    <ClCompile Include="..\recipes\memcof.c" />
+    <ClCompile Include="..\recipes\metrop.c" />
+    <ClCompile Include="..\recipes\mgfas.c" />
+    <ClCompile Include="..\recipes\mglin.c" />
+    <ClCompile Include="..\recipes\midexp.c" />
+    <ClCompile Include="..\recipes\midinf.c" />
+    <ClCompile Include="..\recipes\midpnt.c" />
+    <ClCompile Include="..\recipes\midsql.c" />
+    <ClCompile Include="..\recipes\midsqu.c" />
+    <ClCompile Include="..\recipes\mmid.c" />
+    <ClCompile Include="..\recipes\mnbrak.c" />
+    <ClCompile Include="..\recipes\moment.c" />
+    <ClCompile Include="..\recipes\mp2dfr.c" />
+    <ClCompile Include="..\recipes\mpdiv.c" />
+    <ClCompile Include="..\recipes\mpinv.c" />
+    <ClCompile Include="..\recipes\mpmul.c" />
+    <ClCompile Include="..\recipes\mpops.c" />
+    <ClCompile Include="..\recipes\mppi.c" />
+    <ClCompile Include="..\recipes\mprove.c" />
+    <ClCompile Include="..\recipes\mpsqrt.c" />
+    <ClCompile Include="..\recipes\mrqcof.c" />
+    <ClCompile Include="..\recipes\mrqmin.c" />
+    <ClCompile Include="..\recipes\nrutil.c" />
+    <ClCompile Include="..\recipes\odeint.c" />
+    <ClCompile Include="..\recipes\orthog.c" />
+    <ClCompile Include="..\recipes\pade.c" />
+    <ClCompile Include="..\recipes\pccheb.c" />
+    <ClCompile Include="..\recipes\pcshft.c" />
+    <ClCompile Include="..\recipes\pearsn.c" />
+    <ClCompile Include="..\recipes\period.c" />
+    <ClCompile Include="..\recipes\piksr2.c" />
+    <ClCompile Include="..\recipes\piksrt.c" />
+    <ClCompile Include="..\recipes\pinvs.c" />
+    <ClCompile Include="..\recipes\plgndr.c" />
+    <ClCompile Include="..\recipes\poidev.c" />
+    <ClCompile Include="..\recipes\polcoe.c" />
+    <ClCompile Include="..\recipes\polcof.c" />
+    <ClCompile Include="..\recipes\poldiv.c" />
+    <ClCompile Include="..\recipes\polin2.c" />
+    <ClCompile Include="..\recipes\polint.c" />
+    <ClCompile Include="..\recipes\powell.c" />
+    <ClCompile Include="..\recipes\predic.c" />
+    <ClCompile Include="..\recipes\probks.c" />
+    <ClCompile Include="..\recipes\psdes.c" />
+    <ClCompile Include="..\recipes\pwt.c" />
+    <ClCompile Include="..\recipes\pwtset.c" />
+    <ClCompile Include="..\recipes\pythag.c" />
+    <ClCompile Include="..\recipes\pzextr.c" />
+    <ClCompile Include="..\recipes\qgaus.c" />
+    <ClCompile Include="..\recipes\qrdcmp.c" />
+    <ClCompile Include="..\recipes\qromb.c" />
+    <ClCompile Include="..\recipes\qromo.c" />
+    <ClCompile Include="..\recipes\qroot.c" />
+    <ClCompile Include="..\recipes\qrsolv.c" />
+    <ClCompile Include="..\recipes\qrupdt.c" />
+    <ClCompile Include="..\recipes\qsimp.c" />
+    <ClCompile Include="..\recipes\qtrap.c" />
+    <ClCompile Include="..\recipes\quadct.c" />
+    <ClCompile Include="..\recipes\quadmx.c" />
+    <ClCompile Include="..\recipes\quadvl.c" />
+    <ClCompile Include="..\recipes\ran0.c" />
+    <ClCompile Include="..\recipes\ran1.c" />
+    <ClCompile Include="..\recipes\ran2.c" />
+    <ClCompile Include="..\recipes\ran3.c" />
+    <ClCompile Include="..\recipes\ran4.c" />
+    <ClCompile Include="..\recipes\rank.c" />
+    <ClCompile Include="..\recipes\ratint.c" />
+    <ClCompile Include="..\recipes\ratlsq.c" />
+    <ClCompile Include="..\recipes\ratval.c" />
+    <ClCompile Include="..\recipes\rc.c" />
+    <ClCompile Include="..\recipes\rd.c" />
+    <ClCompile Include="..\recipes\realft.c" />
+    <ClCompile Include="..\recipes\rebin.c" />
+    <ClCompile Include="..\recipes\red.c" />
+    <ClCompile Include="..\recipes\relax.c" />
+    <ClCompile Include="..\recipes\relax2.c" />
+    <ClCompile Include="..\recipes\resid.c" />
+    <ClCompile Include="..\recipes\revcst.c" />
+    <ClCompile Include="..\recipes\reverse.c" />
+    <ClCompile Include="..\recipes\rf.c" />
+    <ClCompile Include="..\recipes\rj.c" />
+    <ClCompile Include="..\recipes\rk4.c" />
+    <ClCompile Include="..\recipes\rkck.c" />
+    <ClCompile Include="..\recipes\rkdumb.c" />
+    <ClCompile Include="..\recipes\rkqs.c" />
+    <ClCompile Include="..\recipes\rlft3.c" />
+    <ClCompile Include="..\recipes\rofunc.c" />
+    <ClCompile Include="..\recipes\rotate.c" />
+    <ClCompile Include="..\recipes\rsolv.c" />
+    <ClCompile Include="..\recipes\rstrct.c" />
+    <ClCompile Include="..\recipes\rtbis.c" />
+    <ClCompile Include="..\recipes\rtflsp.c" />
+    <ClCompile Include="..\recipes\rtnewt.c" />
+    <ClCompile Include="..\recipes\rtsafe.c" />
+    <ClCompile Include="..\recipes\rtsec.c" />
+    <ClCompile Include="..\recipes\rzextr.c" />
+    <ClCompile Include="..\recipes\savgol.c" />
+    <ClCompile Include="..\recipes\scrsho.c" />
+    <ClCompile Include="..\recipes\select.c" />
+    <ClCompile Include="..\recipes\selip.c" />
+    <ClCompile Include="..\recipes\shell.c" />
+    <ClCompile Include="..\recipes\simp1.c" />
+    <ClCompile Include="..\recipes\simp2.c" />
+    <ClCompile Include="..\recipes\simp3.c" />
+    <ClCompile Include="..\recipes\simplx.c" />
+    <ClCompile Include="..\recipes\simpr.c" />
+    <ClCompile Include="..\recipes\sinft.c" />
+    <ClCompile Include="..\recipes\slvsm2.c" />
+    <ClCompile Include="..\recipes\slvsml.c" />
+    <ClCompile Include="..\recipes\sncndn.c" />
+    <ClCompile Include="..\recipes\snrm.c" />
+    <ClCompile Include="..\recipes\sobseq.c" />
+    <ClCompile Include="..\recipes\sor.c" />
+    <ClCompile Include="..\recipes\sort.c" />
+    <ClCompile Include="..\recipes\sort2.c" />
+    <ClCompile Include="..\recipes\sort3.c" />
+    <ClCompile Include="..\recipes\spctrm.c" />
+    <ClCompile Include="..\recipes\spear.c" />
+    <ClCompile Include="..\recipes\sphbes.c" />
+    <ClCompile Include="..\recipes\splie2.c" />
+    <ClCompile Include="..\recipes\splin2.c" />
+    <ClCompile Include="..\recipes\spline.c" />
+    <ClCompile Include="..\recipes\splint.c" />
+    <ClCompile Include="..\recipes\spread.c" />
+    <ClCompile Include="..\recipes\sprsax.c" />
+    <ClCompile Include="..\recipes\sprsin.c" />
+    <ClCompile Include="..\recipes\sprspm.c" />
+    <ClCompile Include="..\recipes\sprstm.c" />
+    <ClCompile Include="..\recipes\sprstp.c" />
+    <ClCompile Include="..\recipes\sprstx.c" />
+    <ClCompile Include="..\recipes\stifbs.c" />
+    <ClCompile Include="..\recipes\stiff.c" />
+    <ClCompile Include="..\recipes\stoerm.c" />
+    <ClCompile Include="..\recipes\svbksb.c" />
+    <ClCompile Include="..\recipes\svdcmp.c" />
+    <ClCompile Include="..\recipes\svdfit.c" />
+    <ClCompile Include="..\recipes\svdvar.c" />
+    <ClCompile Include="..\recipes\toeplz.c" />
+    <ClCompile Include="..\recipes\tptest.c" />
+    <ClCompile Include="..\recipes\tqli.c" />
+    <ClCompile Include="..\recipes\trapzd.c" />
+    <ClCompile Include="..\recipes\tred2.c" />
+    <ClCompile Include="..\recipes\tridag.c" />
+    <ClCompile Include="..\recipes\trncst.c" />
+    <ClCompile Include="..\recipes\trnspt.c" />
+    <ClCompile Include="..\recipes\ttest.c" />
+    <ClCompile Include="..\recipes\tutest.c" />
+    <ClCompile Include="..\recipes\twofft.c" />
+    <ClCompile Include="..\recipes\vander.c" />
+    <ClCompile Include="..\recipes\voltra.c" />
+    <ClCompile Include="..\recipes\wt1.c" />
+    <ClCompile Include="..\recipes\wtn.c" />
+    <ClCompile Include="..\recipes\wwghts.c" />
+    <ClCompile Include="..\recipes\zbrac.c" />
+    <ClCompile Include="..\recipes\zbrak.c" />
+    <ClCompile Include="..\recipes\zbrent.c" />
+    <ClCompile Include="..\recipes\zrhqr.c" />
+    <ClCompile Include="..\recipes\zriddr.c" />
+    <ClCompile Include="..\recipes\zroots.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

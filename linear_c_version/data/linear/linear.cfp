@@ -1,0 +1,27 @@
+<Project version="3.0">
+<Name>linear</Name>
+<Type>CUI</Type>
+<TargetName>linear</TargetName>
+<TargetType>exe</TargetType>
+<Folder name="Source Files">
+</Folder>
+<Folder name="Header Files">
+	<File>..\..\other\bccbug.c</File>
+	<File>..\..\other\complex.c</File>
+	<File>..\..\other\complex.h</File>
+	<File>..\..\other\nr.h</File>
+	<File>..\..\other\nrutil.c</File>
+	<File>..\..\other\nrutil.h</File>
+</Folder>
+<Folder name="Other Files">
+	<File>..\..\examples\xvander.c</File>
+</Folder>
+<Attribute topline="10" x="1" y="11">..\..\other\bccbug.c</Attribute>
+<Attribute topline="40" x="1" y="85">..\..\other\complex.c</Attribute>
+<Attribute topline="431" x="6" y="447">..\..\other\nr.h</Attribute>
+<Attribute topline="478" x="1" y="503">..\..\other\nrutil.c</Attribute>
+<Attribute topline="58" x="1" y="1">..\..\other\nrutil.h</Attribute>
+<Attribute topline="10" x="1" y="18">..\..\examples\xvander.c</Attribute>
+<FolderState>010</FolderState>
+<DefConfig></DefConfig>
+</Project>
